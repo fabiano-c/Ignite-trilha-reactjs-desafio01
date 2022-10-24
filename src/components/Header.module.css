@@ -1,0 +1,29 @@
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: var(--gray-700);
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header > div {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 4.625rem;
+}
+
+.header img {
+    width: 1.375rem;
+}
+
+.header strong {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--blue);
+}
+
+.header strong span{
+    color: var(--purple-dark);
+}
